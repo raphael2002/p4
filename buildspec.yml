@@ -9,7 +9,7 @@ phases:
   pre_build:
     commands:
       - echo installing dependencies...   
-      - npm install --force
+      - npm install
   build: 
     commands:
       -echo building the app...
